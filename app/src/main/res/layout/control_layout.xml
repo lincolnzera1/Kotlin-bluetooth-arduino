@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3FBDEB"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/control_led_on"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:text="Frente"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/control_led_off"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/control_led_on"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:text="Trás"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/control_led_girar"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/control_led_off"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:text="Girar"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/control_led_parar"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/control_led_girar"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:text="parar"
+        android:textSize="25sp"
+        />
+
+    <Button
+
+        android:id="@+id/control_led_disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@+id/control_led_parar"
+        android:layout_centerHorizontal="true"
+        android:text="DISCONNECT"
+        android:backgroundTint="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="405dp"
+        android:text="\@lincolnzera1"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
